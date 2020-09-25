@@ -34,6 +34,28 @@
 * [Pivot Tables](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
 * [Lookups](https://support.microsoft.com/en-us/office/lookup-function-446d94af-663b-451d-8251-369d5e3864cb)
 
+### Working with Git
+* [Class Overview on Git, GitHub, and GitLab](https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/GWU-ARL-DATA-PT-09-2020-U-C/blob/master/05-Helpful-Resources/git-101.md)
+* [Introduction to Git](https://guides.github.com/activities/hello-world/)
+* [Helpful Git Command Line Functions](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
+* [Stashing Changes using `git stash`](https://git-scm.com/docs/git-stash)
+
+#### Pushing to GitHub
+Be sure to remember the following when pushing up to your GitHub repository:
+```
+git add .
+git commit -m "Your commit message here"
+git push
+```
+If you get a message indicating that you need to tell Git who you are, then you can also run the following command (replace the sample e-mail address with your own) and they rerun the commands above.
+
+`git config --global user.email "your@emailaddress.here"`
+
+#### Markdown
+* [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet)
+* [Getting Started with Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+
+
 - - -
 
 ### Copyright
