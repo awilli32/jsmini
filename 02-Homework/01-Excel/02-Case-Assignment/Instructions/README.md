@@ -8,7 +8,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ### Before You Begin
 
-1. Create a new space for this project called `excel-challenge` in either DropBox or Google Drive. **Do not add this homework to an existing space**.
+1. Create a new repository space for this project called `excel-challenge` in GitHub. **Do not add this homework to an existing space**.
 
 2. Store your excel workbooks in here and create a sharable link for submission.
 
@@ -124,7 +124,7 @@ For those looking for an additional challenge, you will evaluate the number of b
 
 ## Submission
 
-* To submit your homework, upload the solution and files to a GitHub repo, Dropbox, or Google Drive and submit the link to <https://bootcampspot.com/>.
+* To submit your homework, upload the solution and files to a GitHub repo and submit the link to <https://bootcampspot.com/>.
 
 ## Employer-Ready Criteria
 
