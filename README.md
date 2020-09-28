@@ -4,8 +4,8 @@
 
 Here are some helpful links that you will use frequently throughout the program:
 
-**Virtual Classroom**
-_Join our virtual classroom in Zoom._
+**Virtual Classroom** 
+_Join our virtual classroom in Zoom._ 
 https://zoom.us/j/3897402333?pwd=ZDNNRlRuN3FsTFRlM3c4NTRlS0tzZz09
 
 **Slack**  
