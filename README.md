@@ -12,6 +12,10 @@ https://zoom.us/j/3897402333?pwd=ZDNNRlRuN3FsTFRlM3c4NTRlS0tzZz09
 _Collaborate with your classmates and instructional team._  
 https://gwuarldatapt0-uwt8000.slack.com
 
+**Slack**  
+_Collaborate with your classmates and instructional team._  
+https://gwuarldatapt0-uwt8000.slack.com
+
 **Boot Camp Spot**  
 _View sessions, submit attendance, view class announcements, and more._  
 https://bootcampspot.com  
