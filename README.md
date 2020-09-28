@@ -39,4 +39,4 @@ You can also request dedicated support from our tutoring team (highly recommende
 First, log into Boot Camp Spot, and then you may have to refresh the page. After you do that, you should see the chat button at the bottom turn green - once you click it, you'll see Live Chat, under Upcoming Session.
 Once you start a Live Chat, and request a tutor, the agent will connect you with one as soon as possible! You'll receive an email as soon as you have been assigned, so just make sure to follow those instructions to connect with them. If the times that they have available don't work for you, then you can request a different tutor.
 
-*Please also remember to review the Student Guide (`StudentGuide.md`) for each unit.*
+**Please also remember to review the Student Guide (`StudentGuide.md`) for each unit.**
