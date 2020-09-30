@@ -34,10 +34,23 @@
 * [Pivot Tables](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
 * [Lookups](https://support.microsoft.com/en-us/office/lookup-function-446d94af-663b-451d-8251-369d5e3864cb)
 
+#### Day 3
+* [Tutorial on Charts in Excel](https://www.excel-easy.com/data-analysis/charts.html#change-chart-type): This tutorial covers charting basics, column charts, line charts, pie charts, bar charts, area charts, scatter plots, data series, axes, trendlines, and more.
+
+#### Day 4
+* [Basic Statistics You NEED to Know for Data Science](https://towardsdatascience.com/basic-statistics-you-need-to-know-for-data-science-1fdd290f59b5)
+* [Measures of Central Tendency](https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php)
+* [Standard Deviation and Variance in Excel](https://www.excel-easy.com/examples/standard-deviation.html)
+* [Mode in Excel](https://www.excel-easy.com/examples/mode.html)
+* [Percentiles and Quantiles in Excel](https://www.excel-easy.com/examples/percentiles-quartiles.html)
+* [Box and Whiskers Plots in Excel](https://www.excel-easy.com/examples/box-whisker-plot.html)
+* [Explaining the 68-95-99.7 rule for a Normal Distribution](https://towardsdatascience.com/understanding-the-68-95-99-7-rule-for-a-normal-distribution-b7b7cbf760c2)
+* [Standard Deviation and Variance Explained](https://www.mathsisfun.com/data/standard-deviation.html)
+
 - - - 
 
 ### Working with Git
-* [Class Overview on Git, GitHub, and GitLab](https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/GWU-ARL-DATA-PT-09-2020-U-C/blob/master/05-Helpful-Resources/git-101.md)
+* [Git 101: Class Overview on Git, GitHub, and GitLab](https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/GWU-ARL-DATA-PT-09-2020-U-C/blob/master/05-Helpful-Resources/git-101.md)
 * [Introduction to Git](https://guides.github.com/activities/hello-world/)
 * [Helpful Git Command Line Functions](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 * [Stashing Changes using `git stash`](https://git-scm.com/docs/git-stash)
@@ -59,7 +72,6 @@ git config --global user.email "your@emailaddress.here"
 #### Markdown
 * [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet)
 * [Getting Started with Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
-
 
 - - -
 
