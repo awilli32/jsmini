@@ -34,6 +34,8 @@
 * [Pivot Tables](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
 * [Lookups](https://support.microsoft.com/en-us/office/lookup-function-446d94af-663b-451d-8251-369d5e3864cb)
 
+- - - 
+
 ### Working with Git
 * [Class Overview on Git, GitHub, and GitLab](https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/GWU-ARL-DATA-PT-09-2020-U-C/blob/master/05-Helpful-Resources/git-101.md)
 * [Introduction to Git](https://guides.github.com/activities/hello-world/)
