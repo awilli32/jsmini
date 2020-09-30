@@ -51,7 +51,10 @@ git push
 ```
 If you get a message indicating that you need to tell Git who you are, then you can also run the following command (replace the sample e-mail address with your own) and they rerun the commands above.
 
-`git config --global user.email "your@emailaddress.here"`
+```
+git config --global user.name "Your Name Here"
+git config --global user.email "your@emailaddress.here"
+```
 
 #### Markdown
 * [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet)
