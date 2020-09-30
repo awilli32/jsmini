@@ -4,7 +4,7 @@ In this activity, you will be investigating data from a nutrition paper titled, 
 
 ## Instructions
 
-* Open up the activity workbook [11-Stu-OutliersDrawnQuartiled/Outliers_Activity_Unsolved.xlsx](Unsolved/Outliers_Activity_Unsolved.xlsx) and familiarize yourself with the raw data.
+* Open up the activity workbook [Outliers_Activity_Unsolved.xlsx](Unsolved/Outliers_Activity_Unsolved.xlsx) and familiarize yourself with the raw data.
 
 * Create a new worksheet and name it "Outlier Testing".
 
