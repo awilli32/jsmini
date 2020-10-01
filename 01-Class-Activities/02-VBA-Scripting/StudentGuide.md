@@ -26,9 +26,12 @@ Excel allows for you to record macros, which will generate VBA code that allows 
 ## What are some disadvantages of VBA?
 One limitation, not necessarily disadvantage is that VBA is designed for use with Excel. It can also have a steep learning curve if you are not used to the Visual Basic programming language. VBA code isn't always easy to migrate and debugging can sometimes be difficult.
 
-- - -
+- - - 
 
 ### Reference Material
+
+#### VBA Tutorial (Highly Recommended)
+* [VBA Tutorial](https://tutorialspoint.com/vba/index.htm)
 
 #### Data Types and Variables
 * [Data Types in VBA](https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary)
