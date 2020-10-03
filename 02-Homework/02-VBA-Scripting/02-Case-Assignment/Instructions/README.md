@@ -14,7 +14,7 @@ This is a mini-case designed to strengthen your programming logic, design, and i
 
 #### Instructions
 
-1. Extract words before the phrase "\_Wells_Fargo" to figure out the state.
+1. Dynamically update the headers. Extract words before the phrase "\_Wells_Fargo" to figure out the state. Do not manually type in the headers.
 
 2. Add the state to the first column of each spreadsheet.
 
