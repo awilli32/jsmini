@@ -58,7 +58,6 @@ One limitation, not necessarily disadvantage is that VBA is designed for use wit
 ### More Helpful Links
 
 * [VBA Programming on MSDN](https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)
-
 * [Excel VBA Programming](http://www.homeandlearn.org/excel_vba_practice1.html)
 
 - - -
