@@ -8,62 +8,61 @@ This unit will start out with core features of Python, such as variable declarat
 
 ### Course Objectives
 
+#### Day 1
 * Be able to navigate the desktop via the terminal.
 * Create Python scripts and run them in terminal.
 * Begin to understand programming concepts in Python.
+
+#### Day 2
 * Feel confident reading data into Python from CSV files.
 * Feel confident writing data from Python into CSV files.
 * Know how to zip two lists together and when this is helpful.
+
+#### Day 3
 * Have a firm understanding on how to create and use Python functions.
 * Be able to create and use Python dictionaries.
 * Be able to read data in from a dictionary.
 * Have a firm understanding of coding logic and reasoning.
 
-### Key Activities
+### Helpful Links
 
-* [Rock Paper Scissors](1/Activities/10-Stu_RockPaperScissors)
-* [Number Chaining](1/Activities/12-Stu_NumberChain)
-* [Read Netflix](2/Activities/08-Stu_ReadNetFlix)
-* [Udemy Zip](2/Activities/11-Stu_UdemyZip)
-* [HobbyBook](3/Activities/03-Stu_HobbyBook)
+#### Getting Started
+* [Python - Beginner](https://www.learnpython.org/)
+* [Python Scripting](https://automatetheboringstuff.com/)
+* [Spyder IDE](https://docs.spyder-ide.org/overview.html)
 
-### Helpful Resources
+#### Python Reference and Built-In Functions
+* [Python Reference and Built-In Functions](https://www.w3schools.com/python/python_reference.asp)
 
-**Day 1**
-* [Python for Beginners](https://www.learnpython.org/)
-* [Python f-Strings](https://realpython.com/python-f-strings/) (an alternative for concatenating strings)
+#### Control Flow
 * [Python Control Flows](https://docs.python.org/3/tutorial/controlflow.html?highlight=loop)
 (`if` statements, `for` loops, `range` functions, etc.)
 
-**Day 2**
-* [Python CSV Module](https://docs.python.org/3/library/csv.html) (how to use `csv.reader`, `csv.writer`, etc.)
+#### Data Structures
+* [Python DataStructures (Lists, Tuples, Dictionaries, Sets, and More)](https://docs.python.org/3/tutorial/datastructures.html)
+* [Python CSV Module](https://docs.python.org/3/library/csv.html)
+
+#### Strings
+* [Python 3's f-Strings](https://realpython.com/python-f-strings/)
+
+#### Other
 * [Python os.path](https://docs.python.org/3/library/os.path.html#module-os.path) (More about working with os.path for working with files and paths)
 * [Introduction to Unicode](https://docs.python.org/3/howto/unicode.html) (Helpful to learn more about character encoding)
 
-**Day 3**
-* [Python Data Structures](https://docs.python.org/3/tutorial/datastructures.html) (lists, tuples, dictionaries, list comprehensions, etc.)
-* [`zip()` function](https://www.w3schools.com/python/ref_func_zip.asp)
-* [Sets in Python](https://www.w3schools.com/python/python_sets.asp)
-* [Dictionaries in Python](https://www.w3schools.com/python/python_dictionaries.asp)
-* [List Comprehensions in Python](https://geeksforgeeks.org/comprehensions-in-python)
-* [Python Functions](https://www.w3schools.com/python/python_functions.asp)
+### Additional Unit Resources
 
-
-### Parking Lot Items
-* [How can I read a specific row from CSV reader](https://stackoverflow.com/questions/26464567/csv-read-specific-row) (Using a _list comprehension_ for this works great -- see the selected answer on Stack Overflow)
-
-### Additional Python Resources
-
-* [Python CheatSheet](Supplemental/Python_Reference_Guide.pdf)
-* [Python-GettingStarted.md](Supplemental/Python-GettingStarted.md)
-* [Virtual Environments](Supplemental/conda_pip.pdf)
-* [Conda Cheatsheet](Supplemental/conda-cheatsheet.pdf)
-* [Python Scripting](https://automatetheboringstuff.com/)
+* [Python CheatSheet](Resources/Python_Reference_Guide.pdf)
+* [Python-GettingStarted.md](Resources/Other-Reference/Python_Resources/Python-GettingStarted.md)
+* [Virtual Environments](Python_Resources/Other-Reference/conda_pip.pdf)
+* [Conda Cheatsheet](Python_Resources/Other-Reference/conda-cheatsheet.pdf)
 
 ### Supplemental Resources
 
 * [Git/Github](https://github.com/Multishifties/No-Nonsense-Github-Project)
 * [Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-en.html)
+* [Data Cleansing Definition](https://en.wikipedia.org/wiki/Data_cleansing)
+* [Data Cleansing common guidelines](https://blog.hubspot.com/customers/5-phases-cleaning-hubspot-crm-data)
+* [Data cleansing principles for marketing](https://www.marketingrockstarguides.com/six-principles-data-cleanliness-1566/)
 
 - - -
 
