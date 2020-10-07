@@ -8,7 +8,9 @@ age = int(input("How old are you? "))
 #   non-empty objects are truth-y.
 trueOrFalse = bool(input("Is the input truthy? "))
 
+boolTest = False
+
 # Creates three print statements that to respond with the output.
-print("My name is " + str(name))
-print("I will be " + str(age + 1) + " next year.")
-print("The input was converted to " + str(trueOrFalse))
+print(f"My name is {name}")
+print(f"I will be {age + 1} next year.")
+print(f"The input was converted to {trueOrFalse}")
