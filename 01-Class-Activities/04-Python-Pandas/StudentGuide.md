@@ -15,40 +15,32 @@
 * Feel more confident with fixing Python/Pandas bugs within Jupyter Notebook.
 * Be able to use Google to explore additional Pandas functionality when necessary.
 
-## Key Activities
-
-* [DataFrame Shop - Pandas](1/Activities/04-Stu_DataFrameShop-Pandas)
-
-* [Training Grounds - Data Functions](1/Activities/06-Stu_TrainingGrounds-DataFunctions)
-
-* [GoodReads Part 1](1/Activities/10-Stu_GoodReadsCSV)
-
-* [GoodReads Part 2](1/Activities/11-Stu_GoodReadsSummary)
-
-* [Pokedex - Group By](2/Activities/07-Par_Pokedex-GroupBy)
-
-* [Search for the Worst](2/Activities/09-Stu_SearchForTheWorst)
-
-* [Cryptocurrency - Merging](3/Activities/02-Stu_Cryptocurrency-Merging)
-
-* [Data Cleanup](3/Activities/06-Stu_CleaningKickstarter)
-
 ## Helpful Links
 
+### Day 1
+* [Pandas data structures](https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html)
+* [Pandas Series](https://www.tutorialspoint.com/python_pandas/python_pandas_series.htm)
+* [Pandas DataFrame](https://www.tutorialspoint.com/python_pandas/python_pandas_dataframe.htm)
+
+### Day 2
+* [loc and iLoc](https://www.tutorialspoint.com/python_pandas/python_pandas_indexing_and_selecting_data.htm)
+* [Data Types and Changing Data Types in Pandas](https://www.tutorialspoint.com/change-data-type-for-one-or-more-columns-in-pandas-dataframe)
+* [DataFrame GroupBy](https://www.tutorialspoint.com/python_pandas/python_pandas_groupby.htm)
+* [Sorting](https://www.tutorialspoint.com/python_pandas/python_pandas_sorting.htm)
+
+### Day 3
+* [Merging](https://www.tutorialspoint.com/python_pandas/python_pandas_merging_joining.htm)
+* [Types of Joins](https://learnsql.com/blog/learn-and-practice-sql-joins/)
+* [Binning](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.cut.html)
+* [String Formatting](https://thepythonguru.com/python-string-formatting/)
+
+### Additional Course Resources
 * [Formatting](https://pyformat.info/)
-
 * [Pandas Tutorials](https://chrisalbon.com/)
-
 * [Pandas Documentation](http://pandas.pydata.org/)
-
 * [Visual Guide to Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
-
 * [Pandas Merging](https://pandas.pydata.org/pandas-docs/stable/merging.html)
-
-## Additional Course Resources
-
 * [Pandas Summary Notebooks](Supplemental/)
-
 * [Pandas Cheatsheet](https://www.dataquest.io/blog/pandas-cheat-sheet/)
 
 - - -

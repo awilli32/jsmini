@@ -45,8 +45,18 @@ This unit will start out with core features of Python, such as variable declarat
 #### Strings
 * [Python 3's f-Strings](https://realpython.com/python-f-strings/)
 
+#### Dictionaries
+[Python dictionaries](https://www.w3schools.com/python/python_dictionaries.asp)
+
+#### List Comprehensions
+[Python list comprehensions](https://www.geeksforgeeks.org/comprehensions-in-python/)
+
+#### Python Functions
+[Python functions](https://www.w3schools.com/python/python_functions.asp)
+
 #### Other
 * [Python os.path](https://docs.python.org/3/library/os.path.html#module-os.path) (More about working with os.path for working with files and paths)
+
 * [Introduction to Unicode](https://docs.python.org/3/howto/unicode.html) (Helpful to learn more about character encoding)
 
 ### Additional Unit Resources
