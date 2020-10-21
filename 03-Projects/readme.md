@@ -1,13 +1,5 @@
-# Project Requirements
+## Projects
 
-## Project 1
-TBD
+Throughout this program, you will have three major projects and either three or four mini-projects (Pandas, Matplotlib, ETL, and possibly a database mini-project).
 
-## ETL Project
-TBD
-
-## Project 2
-TBD
-
-## Project 3
-TBD
+Information on the project will be posted as we get closer to the project periods. Sometimes, we may share information on projects sooner.
