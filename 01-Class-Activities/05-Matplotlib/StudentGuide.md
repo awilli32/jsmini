@@ -21,6 +21,7 @@
 * [Matplotlib Gallery](https://matplotlib.org/gallery.html)
 
 **Day 2**
+* [`pyplot` Reference](https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py)
 * [Pandas Plotting](https://pandas.pydata.org/pandas-docs/stable/visualization.html)
 * [Alternatives to Pie Charts](http://www.storytellingwithdata.com/blog/2014/06/alternatives-to-pies)
 
