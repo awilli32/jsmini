@@ -8,11 +8,11 @@ The technical requirements for Project 1 are as follows.
 
 * [ ] Create a Jupyter Notebook illustrating the **final data analysis**
 
-* [ ] Use Matplotlib to create a at least three (or more) visualizations of your data (ideally, at least 1 or two per "question" you ask of your data)
+* [ ] Use Matplotlib to create a total of 3-4 visualizations of your data (ideally, at least 1 or 2 per "question" you ask of your data)
 
 * [ ] Save PNG images of your visualizations to distribute to the class and instructional team, and for inclusion in your presentation
 
-* [ ] Try to use at least one API, if you can find an API with data pertinent to your primary research questions
+* [ ] Use at least one API, if you can find an API with data pertinent to your primary research questions
 
 * [ ] Create a write-up summarizing your major findings. This should include a heading for each "question" you asked of your data, and under each heading, a short description of what you found and any relevant plots.
 

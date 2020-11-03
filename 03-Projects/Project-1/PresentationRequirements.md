@@ -4,7 +4,7 @@ The presentation requirements for Project 1 are as follows.
 
 Your presentation must:
 
-* [ ] Be at least 8-10 min. long
+* [ ] Be at least 12-15 min. long
 
 * [ ] Describe the core message or hypothesis for your project.
 
