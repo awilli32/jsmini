@@ -6,7 +6,7 @@
 
 * Decide on a search term, and save it to a variable.
 
-* Limit your search to articles published within a range of dates—for example, only articles published in 2014. _Hint_: Read the documentation on `end_date`.
+* Limit your search to articles published within a range of dates—for example, only articles published in 2020. _Hint_: Read the documentation on `end_date`.
 
 * Build your query URL, and save it to a variable.
 
