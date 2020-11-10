@@ -19,7 +19,7 @@
 
 ### Helpful Links
 
-* [Tweepy Documentation](http://docs.tweepy.org/en/v3.5.0/)
+* [Tweepy Documentation](http://docs.tweepy.org/en/v3.9.0/)
 
 - - -
 
