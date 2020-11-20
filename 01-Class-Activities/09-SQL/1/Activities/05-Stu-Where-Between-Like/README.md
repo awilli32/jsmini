@@ -13,7 +13,7 @@
     * Sort the result by `replacement_cost` in descending order, followed by `title` in ascending order.
 
 4. For your fourth drill, complete the following:
-    * Query the `film` table to return `title`, `description`, `release_year`, `rating`, and `replacement_cost` for films that contain "thrilling" in the title.
+    * Query the `film` table to return `title`, `description`, `release_year`, `rating`, and `replacement_cost` for films that contain "thrilling" in the description.
     * Your query should be case insensitive.
     * Sort the result set by `title` in ascending order.
 
