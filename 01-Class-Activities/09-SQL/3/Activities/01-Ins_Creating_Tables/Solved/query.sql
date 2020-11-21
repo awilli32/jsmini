@@ -18,12 +18,21 @@ VALUES ('Jacob', true, 'dog', 'Misty', 10),
   ('Peter', true, 'cat', 'Franklin', 2),
   ('Dave', true, 'dog', 'Queso', 1);
 
+-- Query all rows and columns from the people table
+SELECT *
+FROM people;
+
 -- Query only the `pet_name` field
 SELECT pet_name
 FROM people;
 
 -- Filter the query to show only dogs under the age of 5
-SELECT pet_type, pet_name
-FROM people
-WHERE pet_type = 'dog'
-AND pet_age < 5;
+SELECT
+	pet_type,
+	pet_name,
+	pet_age
+FROM
+	people
+WHERE
+	pet_type = 'dog'
+	AND pet_age < 5;

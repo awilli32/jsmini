@@ -1,7 +1,7 @@
 -- Delete the table "people"
 DROP TABLE people;
 
--- Re-create the table "people" within animals_db
+-- Re-create the table "people" within miscellaneous_db
 CREATE TABLE people (
   id SERIAL PRIMARY KEY,
   name VARCHAR(30) NOT NULL,
