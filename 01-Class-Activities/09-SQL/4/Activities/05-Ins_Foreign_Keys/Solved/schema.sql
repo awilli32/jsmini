@@ -41,6 +41,19 @@ VALUES
 
 INSERT INTO animals_location (location, animal_id)
 VALUES
-  ('River', 5);
+  ('Pond', 2);
 
-SELECT * FROM animals_location;
+SELECT
+	aa.animal_species,
+	aa.owner_name,
+	al.location
+FROM
+	animals_location al
+	INNER JOIN animals_all aa
+	ON al.animal_id = aa.id
+ORDER BY
+	aa.animal_species
+	,aa.owner_name
+
+
+

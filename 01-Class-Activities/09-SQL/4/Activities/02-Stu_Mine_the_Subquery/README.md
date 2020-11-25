@@ -4,15 +4,15 @@ In this activity, you will continue to practice subqueries. Work individually or
 
 ### Instructions
 
-First, create a view that returns all actors for each film. The view should contain the following columns:
-* `film_title`
-* `actor_full_name` (be sure to concatenate first and last name from the `actor` table)
+#### With Subqueries
+* Using subqueries, identify all actors who appear in the film ALTER VICTORY in the `pagila` database.
 
-Create one view using subqueries and create the other view using joins.
+* Using subqueries, display the titles of films that the employee Jon Stephens rented to customers.
 
-Use that view to accomplish the following:
+#### With Joins
+* Using a join, identify all actors who appear in the film ALTER VICTORY in the `pagila` database.
 
-* Identify all actors who appear in the film ALTER VICTORY in the `sakila` database.
+* Using a join, display the titles of films that the employee Jon Stephens rented to customers.
 
 #### Discussion
 Discuss your preferred method for achieving this result.
