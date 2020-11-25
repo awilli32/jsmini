@@ -8,17 +8,11 @@ First, create a view that returns all actors for each film. The view should cont
 * `film_title`
 * `actor_full_name` (be sure to concatenate first and last name from the `actor` table)
 
+Create one view using subqueries and create the other view using joins.
+
 Use that view to accomplish the following:
 
-#### With Subqueries
-* Using subqueries, identify all actors who appear in the film ALTER VICTORY in the `sakila` database.
-
-* Using subqueries, display the titles of films that the employee Jon Stephens rented to customers.
-
-#### With Joins
-* Using a join, identify all actors who appear in the film ALTER VICTORY in the `sakila` database.
-
-* Using a join, display the titles of films that the employee Jon Stephens rented to customers.
+* Identify all actors who appear in the film ALTER VICTORY in the `sakila` database.
 
 #### Discussion
 Discuss your preferred method for achieving this result.
