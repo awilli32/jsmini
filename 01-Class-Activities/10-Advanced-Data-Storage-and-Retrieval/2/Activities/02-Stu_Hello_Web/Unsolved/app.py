@@ -13,9 +13,19 @@ def index():
 
 #%%
 # create your "about" route
+@app.route('/about')
+def about():
+    dart_info = 'Dartanion is from the south side of Chicago and loves ice cream.'
+    # print(dart_info)
+    return dart_info
 
 #%%
 # create your "about" routes
+@app.route('/contact')
+def contact():
+    dart_info = 'Dartanion can be reached at (773) 575-7000'
+    print('look at me over here!!!!!!!')
+    return dart_info
 
 #%%
 # 4. Define main behavior
