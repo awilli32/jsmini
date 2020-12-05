@@ -20,4 +20,6 @@
 
 * Calculate the invoice items totals **sum(UnitPrice \* Quantity)** for each Billing Postal Code for the USA.
 
+* Expose the invoice item totals by zip code as a new endpoint using Flask. Call the endpoint whatever you'd like.
+
 **Use Pandas to query the data.**
