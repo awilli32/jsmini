@@ -18,9 +18,7 @@ In a new HTML file, create the basic structure of an HTML document and include i
 
    3. Make the third link a placeholder so it goes nowhere.
 
-HINT: You should be checking the rendered HTML in Chrome as you code to make sure you're going in the right direction.
-
-### Bonus
+6. Complete the following:
 
 * Create an ordered list of steps to make a sandwich.
 
@@ -29,3 +27,5 @@ HINT: You should be checking the rendered HTML in Chrome as you code to make sur
 * Use an alternate way of separating links without line breaks.
 
 * Embed a YouTube video of your favorite band/musician.
+
+HINT: You should be checking the rendered HTML in Chrome as you code to make sure you're going in the right direction.
