@@ -4,7 +4,7 @@
 
 ## Instructions
 
-* Create a Jupyter Notebook for your analysis.
+* Open *Spyder* to start your analysis.
 
 * Create a SQLAlchemy engine to the database `chinook.sqlite`.
 
