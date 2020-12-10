@@ -28,7 +28,7 @@ Start up MongoDB by typing `mongod` into your terminal or bash windows. Your ter
 If you did not install MongoDB Compass during the previous step, then you can install it separately by using these steps:
 
 * Access the MongoDB Compass download page: https://www.mongodb.com/try/download/compass
-* Select **On-Premises**
+* Select **Tools**
 * After selecting On-Premises select **MongoDB Compass** as the product that you would like to download. 
 * Select the appropriate operating system, and proceed with the download and install.
 
