@@ -12,7 +12,14 @@
 * Understand the Bootstrap Grid and discover how to utilize it to position the elements on the page.
 * Discover how to quickly and easily build web pages using pre-built Bootstrap components.
 
-### Helpful Links
+### Key Tutorials
+* [HTML](https://www.w3schools.com/html/)
+* [CSS intro](https://www.w3schools.com/html/html_css.asp)
+* [CSS detail](https://www.w3schools.com/css/default.asp)
+* [Bootstrap](https://getbootstrap.com/)
+* [Media Queries](https://getbootstrap.com/docs/5.0/layout/breakpoints/#media-queries)
+
+### Other Helpful Links
 
 * [Bootstrap 4 Tutorial](https://scrimba.com/g/gbootstrap4)
 * [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
