@@ -1,11 +1,11 @@
 # Web Scraping and Document Databases
 
 ## Installation Prework
-This document outlines the installation and configuration prework that is required for the Web Scraping and Document Databases module. 
+This document outlines the installation and configuration prework that is required for the Web Scraping and Document Databases module.
 
 Please complete all of the installation steps *before class on Saturday* and post any issues in the `#homework` channel.
 
-- - - 
+- - -
 
 ### MongoDB Community Edition and MongoDB Compass
 #### **Step 1: Install MongoDB Community Edition**
@@ -14,25 +14,25 @@ Please complete all of the installation steps *before class on Saturday* and pos
 * Mac: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 
 
-Please follow every step in the tutorial (please do not miss any steps), including the post-install set up steps. 
-  * **For Windows Users**: Be sure to create the `data` directory and add MongoDB to your system PATH environment variable. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.) 
-  * **For Mac Users**: Be sure to follow every step in the tutorial. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.) 
-	
+Please follow every step in the tutorial (please do not miss any steps), including the post-install set up steps.
+  * **For Windows Users**: Be sure to create the `data` directory and add MongoDB to your system PATH environment variable. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
+  * **For Mac Users**: Be sure to follow every step in the tutorial. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
+
 #### **Step 2: Verify the MongoDB Community Edition Install**
 Start up MongoDB by typing `mongod` into your terminal or bash windows. Your terminal/bash screens should look something like this:
-	
+
 ![mongod image](Images/mongod.png)
 
 #### **Step 3: Install MongoDB Compass**
-  
+
 If you did not install MongoDB Compass during the previous step, then you can install it separately by using these steps:
 
 * Access the MongoDB Compass download page: https://www.mongodb.com/try/download/compass
 * Select **Tools**
-* After selecting On-Premises select **MongoDB Compass** as the product that you would like to download. 
+* After selecting On-Premises select **MongoDB Compass** as the product that you would like to download.
 * Select the appropriate operating system, and proceed with the download and install.
 
-- - - 
+- - -
 
 ### PyMongo, Splinter and ChromeDriver Setup
 
@@ -69,7 +69,7 @@ To check your version of Google Chrome, click Help > About Google Chrome from th
 
 For **Windows Users**, you must follow the steps to download `ChromeDriver.exe`, place it in a folder on your machine and add that folder to your PATH environment variable.
 
-- - - 
+- - -
 
 #### **Step 6: Test your Configuration (IMPORTANT)**
 
@@ -84,12 +84,12 @@ Run the entire script. If it completes without error, then you are all set. If y
 - - -
 
 ### Support
-As a reminder, please complete these installs **before class on Saturday**. 
+As a reminder, please complete these installs **before class on Saturday**.
 
 If you are having problems with installation or configuration. we've got several options to support you including: :
-* I can run an optional installation and configuration session on Friday, December 11 at 6 pm for Windows Users and 6:45 pm for Mac users. I will record the sessions. 
+* I can run an optional installation and configuration session on Friday, December 11 at 6 pm for Windows Users and 6:45 pm for Mac users. I will record the sessions.
 * Work with your TAs, Heather or Darick or your tutor to resolve install issues.
-* During office hours on Saturday, breakout rooms will be set up before class during office hours. 
+* During office hours on Saturday, breakout rooms will be set up before class during office hours.
 * If you are having problems, I need to know ASAP. Please post any unresolved issues to the `#homework` channel.
 
 Keep in mind that during class hours, there will be **no time will be allocated to installation and configuration**. However, breakout rooms will be available for anyone who may be having issues. We will only take ~10 to 15 minutes to verify installs.
