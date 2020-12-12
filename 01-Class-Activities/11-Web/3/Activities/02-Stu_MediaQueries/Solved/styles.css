@@ -1,3 +1,4 @@
+
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
   background: #f1f1f1;
@@ -9,10 +10,6 @@ h1 {
 
 h3 {
   font-size: 30px;
-}
-
-#nav-select {
-  visibility: hidden;
 }
 
 /* Giving our navbar some padding and a background color */
@@ -60,18 +57,20 @@ h3 {
   margin-left: 100px;
 }
 
+#nav-select {
+  visibility: hidden;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
 @media (max-width: 600px) {
   .navbar li {
-    padding: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
+    padding: 10px;
   }
 
-  #nav-select {
-    visibility: visible;
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
   }
 
-  .navbar ul {
-    visibility: hidden;
-  }
+
 }
