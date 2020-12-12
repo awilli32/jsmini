@@ -12,11 +12,11 @@ Please complete all of the installation steps *before class on Saturday* and pos
 
 To install MongoDB Community Edition and MongoDB Compass, please follow every step in the tutorial(s) (please do not miss any steps), including the post-install set up steps.
 
-**For Windows Users**: 
+**For Windows Users**:   
   * Download, install, and set up MongoDB using [this tutorial](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/):  
   * Be sure to create the `data` directory and add MongoDB to your system PATH environment variable. Please select the option to also install **MongoDB Community Edition** during the install steps.   
   
-**For Mac Users**: 
+**For Mac Users**:  
 The simple steps for **Mac Users** are below. Run these in your terminal:
 
 1. Install x-code-select (if you do not already have it):
@@ -38,13 +38,11 @@ brew services start mongodb-community@4.4
 
 Note: You will need to start `mongodb-community@4.4` if you want to work in MongoDB. To stop the service, you can enter `brew services stop mongodb-community@4.4` in your terminal.
 
-**If the simple steps do not work,** then please follow the detailed steps in [this tutorial](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/), and proceed to Step 2 to test your setup.
-
 #### **Step 2: Verify the MongoDB Community Edition Install**
 Start up MongoDB by typing `mongod` into your terminal or bash windows. Your terminal/bash screens should look something like this:  
 ![mongod image](Images/mongod.png)
 
-**WINDOWS USERS:** If your screen doesn't look like this image above, then you may need to add MongoDB to your PATH environment variable.
+**Windows Users:** If your screen doesn't look like this image above, then you may need to add MongoDB to your PATH environment variable.
 See the following steps:
 
 1. Hit the Windows Key (or Start button) and type "PATH".  
@@ -61,6 +59,9 @@ See the following steps:
 ![path image](Images/path4.png)
 
 5. Completely close all Command Prompt windows. Reopen a brand new Command Prompt window and try to type `mongod`. If the image still does not look like the image above, then notify the team and continue to move forward with testing your setup.
+
+**Mac users**:  
+If the install steps from Step 1 did not work, then please follow the detailed steps in [this tutorial](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/), and proceed to try running `mongod` again once you are done.
 
 #### **Step 3 (OPTIONAL): Install MongoDB Compass**
 
