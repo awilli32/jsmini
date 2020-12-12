@@ -10,13 +10,13 @@ Please complete all of the installation steps *before class on Saturday* and pos
 ### MongoDB Community Edition and MongoDB Compass
 #### **Step 1: Install MongoDB Community Edition**
 
-* Windows: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
-* Mac: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+To install MongoDB Community Edition and MongoDB Compass, please follow every step in the tutorial(s) (please do not miss any steps), including the post-install set up steps.
 
-Please follow every step in the tutorial (please do not miss any steps), including the post-install set up steps.
-  * **For Windows Users**: Be sure to create the `data` directory and add MongoDB to your system PATH environment variable. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
-  * **For Mac Users**: Be sure to follow every step in the tutorial. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
+**For Windows Users**: 
+  * Download, install, and set up MongoDB using [this tutorial](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/):  
+  * Be sure to create the `data` directory and add MongoDB to your system PATH environment variable. Please select the option to also install **MongoDB Community Edition** during the install steps.   
   
+**For Mac Users**: 
 The simple steps for **Mac Users** are below. Run these in your terminal:
 
 1. Install x-code-select (if you do not already have it):
@@ -36,7 +36,9 @@ brew install mongodb-community@4.4
 brew services start mongodb-community@4.4
 ```
 
-Note: You will need to start `mongodb-community@4.4` if you want to work in MongoDB. To stop the service, you can enter `brew services stop mongodb-community@4.4` in your terminal. **If the simple steps do not work, then please follow the detailed steps in the tutorial above.**
+Note: You will need to start `mongodb-community@4.4` if you want to work in MongoDB. To stop the service, you can enter `brew services stop mongodb-community@4.4` in your terminal.
+
+**If the simple steps do not work,** then please follow the detailed steps in [this tutorial](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/), and proceed to Step 2 to test your setup.
 
 #### **Step 2: Verify the MongoDB Community Edition Install**
 Start up MongoDB by typing `mongod` into your terminal or bash windows. Your terminal/bash screens should look something like this:  
