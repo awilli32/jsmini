@@ -18,25 +18,23 @@ Please follow every step in the tutorial (please do not miss any steps), includi
   * **For Mac Users**: Be sure to follow every step in the tutorial. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
 
 #### **Step 2: Verify the MongoDB Community Edition Install**
-Start up MongoDB by typing `mongod` into your terminal or bash windows. Your terminal/bash screens should look something like this:
-
+Start up MongoDB by typing `mongod` into your terminal or bash windows. Your terminal/bash screens should look something like this:  
 ![mongod image](Images/mongod.png)
 
-**WINDOWS USERS:** If your screen doesn't look like this image above, then you may need to add MongoDB to your PATH environment variable. 
-
+**WINDOWS USERS:** If your screen doesn't look like this image above, then you may need to add MongoDB to your PATH environment variable.
 See the following steps:
 
-1. Hit the Windows Key (or Start button) and type "PATH".
+1. Hit the Windows Key (or Start button) and type "PATH".  
 ![path image](Images/path1.png)
 
-2. From the System Properties screen, click the **Advanced Tab** and click the **Environment Variables** button.
+2. From the System Properties screen, click the **Advanced Tab** and click the **Environment Variables** button.  
 ![path image](Images/path2.png)
 
 3. From the Environment Variables screen, in the System Variables panel, select "Path" from the list. Once "Path" has been selected, click the **Edit** button. 
-*NOTE: If you do not have the permission to edit System Variables, then try editing the "Path" variable in the User Variables section above.*
+*NOTE: If you do not have the permission to edit System Variables, then try editing the "Path" variable in the User Variables section above.*  
 ![path image](Images/path3.png)
 
-4. In the Edit Environment Variables screen, click new. Enter the MongoDB environment path, which should be `C:\Program Files\MongoDB\Server\4.4\bin` if you are using version 4.4 of MongoDB. Please feel free to replace the `4.4` in the PATH with the version that you are using. Once you have entered the MongoDB path, click OK to close out the configuration windows.
+4. In the Edit Environment Variables screen, click new. Enter the MongoDB environment path, which should be `C:\Program Files\MongoDB\Server\4.4\bin` if you are using version 4.4 of MongoDB. Please feel free to replace the `4.4` in the PATH with the version that you are using. Once you have entered the MongoDB path, click OK to close out the configuration windows.  
 ![path image](Images/path4.png)
 
 5. Completely close all Command Prompt windows. Reopen a brand new Command Prompt window and try to type `mongod`. If the image still does not look like the image above, then notify the team and continue to move forward with testing your setup.
