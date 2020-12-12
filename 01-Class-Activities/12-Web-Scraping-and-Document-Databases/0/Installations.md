@@ -13,7 +13,6 @@ Please complete all of the installation steps *before class on Saturday* and pos
 * Windows: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 * Mac: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 
-
 Please follow every step in the tutorial (please do not miss any steps), including the post-install set up steps.
   * **For Windows Users**: Be sure to create the `data` directory and add MongoDB to your system PATH environment variable. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
   * **For Mac Users**: Be sure to follow every step in the tutorial. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
@@ -23,7 +22,28 @@ Start up MongoDB by typing `mongod` into your terminal or bash windows. Your ter
 
 ![mongod image](Images/mongod.png)
 
-#### **Step 3: Install MongoDB Compass**
+**WINDOWS USERS:** If your screen doesn't look like this image above, then you may need to add MongoDB to your PATH environment variable. 
+
+See the following steps:
+
+1. Hit the Windows Key (or Start button) and type "PATH".
+![path image](Images/path1.png)
+
+2. From the System Properties screen, click the **Advanced Tab** and click the **Environment Variables** button.
+![path image](Images/path2.png)
+
+3. From the Environment Variables screen, in the System Variables panel, select "Path" from the list. Once "Path" has been selected, click the **Edit** button. 
+*NOTE: If you do not have the permission to edit System Variables, then try editing the "Path" variable in the User Variables section above.*
+![path image](Images/path3.png)
+
+4. In the Edit Environment Variables screen, click new. Enter the MongoDB environment path, which should be `C:\Program Files\MongoDB\Server\4.4\bin` if you are using version 4.4 of MongoDB. Please feel free to replace the `4.4` in the PATH with the version that you are using. Once you have entered the MongoDB path, click OK to close out the configuration windows.
+![path image](Images/path4.png)
+
+5. Completely close all Command Prompt windows. Reopen a brand new Command Prompt window and try to type `mongod`. If the image still does not look like the image above, then notify the team and continue to move forward with testing your setup.
+
+#### **Step 3 (OPTIONAL): Install MongoDB Compass**
+
+**This step is only required if you did not install MongoDB Compass in step 1.**
 
 If you did not install MongoDB Compass during the previous step, then you can install it separately by using these steps:
 
@@ -36,10 +56,14 @@ If you did not install MongoDB Compass during the previous step, then you can in
 
 ### PyMongo, Splinter and ChromeDriver Setup
 
-#### **Step 4: Complete `pip` Installs**
-You will need to complete the following `pip` installs for the Unit 12.
+#### **Step 4: Test your Configuration**
 
-From within Jupyter Notebook (recommended), please run:
+In this final step, you will need to run a Jupyter Notebook to confirm that the script runs without error.
+
+As part of the test, you will need to complete the following `pip` installs for the Unit 12.
+
+These have all been included in the test scripts.
+
 * `!pip install pymongo`
 * `!pip install bs4`
 * `!pip install lxml`
@@ -48,38 +72,29 @@ From within Jupyter Notebook (recommended), please run:
 * `!pip install splinter`
 * `!pip install chromedriver`
 
-If using Anaconda Prompt or your terminal, please run:
-* `pip install pymongo`
-* `pip install bs4`
-* `pip install lxml`
-* `pip install webdriver_manager`
-* `pip install html5lib`
-* `pip install splinter`
-* `pip install chromedriver`
+Depending on your operating system, run one of the scripts below in Jupyter Notebook:
+* `WINDOWS_PyMongo_Splinter_Test.ipynb` for Windows users
+* `MAC_PyMongo_Splinter_Test.ipynb` for Mac users
 
-If you are having problems with `pip`, try using `pip3` instead.
+Run the entire script. If it completes without error, then you are all set. We will explain the code in the script during class.
 
-#### **Step 5: Spinter and ChromeDriver setup**
+**If you encounter an error, proceed to the Optional Step 6 below, and complete the manual ChromeDriver setup.** Once you have completed the manual ChromeDriver setup, completely close Jupyter Notebook, and all other Anaconda windows and completely restart Jupyter Notebook.
 
-To set up Splinter and ChromeDriver, please see [this document](https://splinter.readthedocs.io/en/latest/drivers/chrome.html) and ensure that all of the setup components have been addressed.
+Once you have completely restarted Jupyter Notebook, retry the test script(s).
+
+If you still encounter an error at this point, check the installation and configuration steps above and report your issue(s) to the #homework channel. Please work with your tutor and/or TAs for support.
+
+#### **Step 5 (OPTIONAL): Manual Splinter and ChromeDriver setup**
+
+**Follow these steps ONLY IF the test in Step 4 did not work.
+
+To manually set up Splinter and ChromeDriver, please see [this document](https://splinter.readthedocs.io/en/latest/drivers/chrome.html) and ensure that all of the setup components have been addressed.
 
 **Be sure to check your version of Google Chrome** to select the right version of ChromeDriver to install.
 
 To check your version of Google Chrome, click Help > About Google Chrome from the menu bar in Chrome.
 
 For **Windows Users**, you must follow the steps to download `ChromeDriver.exe`, place it in a folder on your machine and add that folder to your PATH environment variable.
-
-- - -
-
-#### **Step 6: Test your Configuration (IMPORTANT)**
-
-In this final step, you will need to run a Jupyter Notebook to confirm that the script runs without error.
-
-Depending on your operating system, run one of the scripts below in Jupyter Notebook:
-* `WINDOWS_PyMongo_Splinter_Test.ipynb` for Windows users
-* `MAC_PyMongo_Splinter_Test.ipynb` for Mac users
-
-Run the entire script. If it completes without error, then you are all set. If you encounter an error, check the installation and configuration steps above and report your issue(s) to the #homework channel. Please work with your tutor and/or TAs for support.
 
 - - -
 
