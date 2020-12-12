@@ -16,6 +16,27 @@ Please complete all of the installation steps *before class on Saturday* and pos
 Please follow every step in the tutorial (please do not miss any steps), including the post-install set up steps.
   * **For Windows Users**: Be sure to create the `data` directory and add MongoDB to your system PATH environment variable. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
   * **For Mac Users**: Be sure to follow every step in the tutorial. Please select the option to also install **MongoDB Community Edition**. If presented with the option. (If you were not presented with an option, then you will have the opportunity later.)
+  
+The simple steps for **Mac Users** are below. Run these in your terminal:
+
+1. Install x-code-select (if you do not already have it):
+```
+xcode-select --install
+```
+
+2. Install MongoDB through Homebrew:
+```
+brew tap mongodb/brew
+brew tap | grep mongodb
+brew install mongodb-community@4.4
+```
+
+3. To start MongoDB after installing, enter:
+```
+brew services start mongodb-community@4.4
+```
+
+Note: You will need to start `mongodb-community@4.4` if you want to work in MongoDB. To stop the service, you can enter `brew services stop mongodb-community@4.4` in your terminal. **If the simple steps do not work, then please follow the detailed steps in the tutorial above.**
 
 #### **Step 2: Verify the MongoDB Community Edition Install**
 Start up MongoDB by typing `mongod` into your terminal or bash windows. Your terminal/bash screens should look something like this:  
@@ -62,13 +83,7 @@ As part of the test, you will need to complete the following `pip` installs for 
 
 These have all been included in the test scripts.
 
-* `!pip install pymongo`
-* `!pip install bs4`
-* `!pip install lxml`
-* `!pip install webdriver_manager`
-* `!pip install html5lib`
-* `!pip install splinter`
-* `!pip install chromedriver`
+* `pymongo`, `bs4`, `lxml`, `webdriver_manager`, `html5lib`, `splinter`, and `chromedriver`
 
 Depending on your operating system, run one of the scripts below in Jupyter Notebook:
 * `WINDOWS_PyMongo_Splinter_Test.ipynb` for Windows users
