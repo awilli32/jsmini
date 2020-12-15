@@ -12,6 +12,20 @@
 * Understand the Bootstrap Grid and discover how to utilize it to position the elements on the page.
 * Discover how to quickly and easily build web pages using pre-built Bootstrap components.
 
+### Important Web and Bootstrap Resources
+* Bootstrap components _(NOTE: Use Bootstrap version 4.4! We need to investigate the stability of version 5)_
+    * [Containers](https://getbootstrap.com/docs/4.4/layout/overview/)
+	* [Grid](https://getbootstrap.com/docs/4.0/layout/grid/)
+	* [Navbar](https://getbootstrap.com/docs/4.4/components/navbar/)
+	* [Dropdowns](https://getbootstrap.com/docs/4.4/components/dropdowns/)
+	* [Tables](https://getbootstrap.com/docs/4.4/content/tables/)
+	* [Media Queries](https://getbootstrap.com/docs/5.0/layout/breakpoints/#media-queries)
+* Container and content elements 
+	* [Div tag](https://www.w3schools.com/tags/tag_div.ASP)
+	* [Other containers](https://www.w3schools.com/html/html_layout.asp)
+    * [Span tag](https://www.w3schools.com/tags/tag_span.asp)
+
+
 ### Key Tutorials
 * [HTML](https://www.w3schools.com/html/)
 * [CSS intro](https://www.w3schools.com/html/html_css.asp)
