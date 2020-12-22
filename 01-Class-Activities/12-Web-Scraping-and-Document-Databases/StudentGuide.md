@@ -14,15 +14,19 @@
 
 - - -
 
-### Helpful Links
-
-* [Mongo in 30 minutes](https://www.youtube.com/watch?v=pWbMrx5rVBE)
-
-* [Python Requests](http://docs.python-requests.org/en/master/)
-
-* [Webscraping with BeautifulSoup](https://www.dataquest.io/blog/web-scraping-tutorial-python/)
+### Key Resources
 
 * [Python Splinter](https://splinter.readthedocs.io/en/latest/)
+* [Finding elements in Splinter](https://splinter.readthedocs.io/en/latest/finding.html)
+* [Mouse interactions with Splinter](https://splinter.readthedocs.io/en/latest/mouse-interaction.html)
+* [BeautifulSoup Overview](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+
+### Other Helpful Links
+
+* [Mongo in 30 minutes](https://www.youtube.com/watch?v=pWbMrx5rVBE)
+* [Python Requests](http://docs.python-requests.org/en/master/)
+* [Webscraping with BeautifulSoup](https://www.dataquest.io/blog/web-scraping-tutorial-python/)
 
 - - -
 
