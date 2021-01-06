@@ -1,7 +1,7 @@
 // Create a variable called "name" that holds a string
-var name = "Homer Simpson";
+var name = "Homer Simpson"
 
-// Create a variable called "country" that holds a string
+
 var country = "United States";
 
 // Create a variable called "age" that holds an integer
@@ -37,9 +37,13 @@ console.log(`You make ${dailyWage} dollars per day.`);
 // Print out the weekly wage that was calculated
 console.log(`You make ${weeklyWage} dollars per week.`);
 
+/* Homer Simpson, your weekly rate of $600 is good for someone that is 26 */
+
+console.log(`${name}, your weekly rate of ${weeklyWage} is good for someone that is ${age}`)
+
 
 // Using an IF statement to print out whether the users were satisfied
-if (satisfied === true) {
+if (satisfied == true) {
   console.log("You are satisfied with your pay.");
 }
 else {
