@@ -1,5 +1,5 @@
 // Array of student names
-var students = ["Johnny", "Tyler", "Bodhi", "Pappas"];
+var students = ["Brooke", "Meakin", "Sandra", "Vera"];
 
 // This function will be called for each element in the array
 function printName(name) {
