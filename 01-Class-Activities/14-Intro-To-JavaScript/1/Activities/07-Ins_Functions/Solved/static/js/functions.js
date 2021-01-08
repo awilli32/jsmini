@@ -3,6 +3,15 @@ function printHello() {
   console.log("Hello there!");
 }
 
+var a = 10
+var b = 11
+
+function hiBrooke(x,y){
+
+  c = x + y;
+  console.log(`Brooke's magic number is ${c}`)
+}
+
 // Takes two numbers and adds them
 function addition(a, b) {
   return a + b;
@@ -22,7 +31,9 @@ function listLoop(userList) {
 }
 
 var friends = ["Sarah", "Greg", "Cindy", "Jeff"];
+var dartlings = ['Leslie','Renier','Brooke','Jared','Mahdi']
 listLoop(friends);
+listLoop(dartlings);
 
 // Functions can call other functions
 function doubleAddition(c, d) {
@@ -39,3 +50,6 @@ console.log(doubleAddition(3, 4));
 var longDecimal = 112.34534454;
 var roundedDecimal = Math.floor(longDecimal);
 console.log(roundedDecimal);
+
+
+hiBrooke(21,7);

@@ -22,37 +22,24 @@ var goodMovieScores = [];
 var okMovieScores = [];
 var badMovieScores = [];
 
-// Loop through movie scores
-/*
-for (var i = 0; i < movieScores.length; i++) {
-  // Create variable to hold rating score
-  var score = movieScores[i];
-  // Add each score to the rating count
-
-}
-*/
-
-
-function classifyMovies(score){
+// Use forEach to call a function on each element
+movieScores.forEach(function(score) {
+  // Add each score to the ratings count
   sum += score;
 
-  // If the score is greater than 7, add it to the list of good movies
+  // If the movie's rating is greater than 7, add it to the list of good movies
   if (score > 7) {
     goodMovieScores.push(score);
   }
-  // If the score is between 5 and 7, add it to the list of "Ok" movies
+  // If the movie's rating is between 5 and 7, add it to the list of "Ok" movies
   else if (score <= 7 && score > 5) {
     okMovieScores.push(score);
   }
-  // Otherwise, if the score is less than or equal to 5, add it to the list of bad movies
+  // Otherwise, if the movie's rating is less than or equal to 5, add it to the list of bad movies
   else {
     badMovieScores.push(score);
   }
-}
-
-
-movieScores.forEach(classifyMovies);
-
+});
 
 // Find the average score
 var avg = sum / movieScores.length;

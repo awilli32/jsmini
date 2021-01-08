@@ -21,7 +21,7 @@ console.log(movie.sequels[0]);
 // console.log(movie["name"]);
 
 // Add a key-value pair to an existing object
-movie.rating = 8.5;
+movie['rating'] = 8.5;
 console.log(movie);
 
 // Delete a key-value pair
