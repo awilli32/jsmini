@@ -18,17 +18,22 @@
 
 - - -
 
-### Helpful Links
+### Recommended Tutorial
+* [JavaScript Tutorial on W3 schools](https://www.w3schools.com/js/default.asp)
+    * HIGHLY RECOMMENDED Practice on W3 schools:
+	    * Day 1: JS Introduction to JS Data Types
+        * Day 2: JS Functions to JS Date Set Methods
+        * Day 3: JS Math to JS Type Conversion
+        
+- - - 
+
+### Other Helpful Links
 
 * [Interactive JavaScript Sheet](http://htmlcheatsheet.com/js/)
 
 * [Scrimba Intro to JavaScript](https://scrimba.com/g/gintrotojavascript)
 
 * [Scrimba ES6+](https://scrimba.com/g/gintrotoes6)
-
-* [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
-
-* [JavaScript Tutorial](https://watchandcode.com/p/practical-javascript)
 
 - - -
 
