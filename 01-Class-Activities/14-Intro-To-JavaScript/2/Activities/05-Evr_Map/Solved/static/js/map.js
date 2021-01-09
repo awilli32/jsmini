@@ -2,7 +2,7 @@ var theStagesOfJS = ["confidence", "sadness", "confusion", "realization", "debug
 
 // Using the .map method
 var mapSimpleArray = theStagesOfJS.map(function(item) {
-  return item;
+  return item.toUpperCase();
 });
 
 console.log(mapSimpleArray);
@@ -10,7 +10,7 @@ console.log(mapSimpleArray);
 // Map will also provide the index position of the array.
 // This is similar to enumerate in Python.
 var mapArrayWithIndex = theStagesOfJS.map(function(item, index) {
-  return `Stage ${index}: ${item}`;
+  return `Stage ${index + 1}: ${item}`;
 });
 
 console.log(mapArrayWithIndex);
@@ -28,12 +28,14 @@ var students = [
 ];
 
 var names = students.map(function(student) {
-  return student.name;
+  return student['name'];
 });
+console.log(names);
 
 var scores = students.map(function(student) {
   return student.score;
 });
+console.log(scores);
 
 // Map vs forEach
 // Part A
@@ -68,12 +70,12 @@ var princesses = [
 // Log the name of each princess, follow by a colon, followed by their age
 // forEach: executes a provided function once for each array element
 princesses.forEach(function(princess) {
-  console.log(`${princess.name}: ${princess.age}`);
+  console.log(`${princess['name']}: ${princess['age']}`);
 });
 
 // Create an array of just the names from the princesses array
 // map: creates a new array with the results of calling a provided function on every element in the calling array
 var names = princesses.map(function(princess) {
-  return princess.name;
+  return princess['name'];
 });
 console.log("names: ", names);

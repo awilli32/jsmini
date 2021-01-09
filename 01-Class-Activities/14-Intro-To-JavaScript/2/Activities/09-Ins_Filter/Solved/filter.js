@@ -19,11 +19,14 @@ var simpsons = [{
 
 // Create a custom filtering function
 function selectYounger(person) {
-  return person.age < 30;
+  return person['age'] < 30;
 }
 
 // filter() uses the custom function as its argument
 var youngSimpsons = simpsons.filter(selectYounger);
+
+// ANONYMOUS FUNCTION
+// var youngSimpsons = simpsons.filter(person => person['age'] < 30);
 
 // Test
 console.log(youngSimpsons);

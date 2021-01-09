@@ -13,6 +13,18 @@ Object.values(userInfo).forEach(value => console.log(value));
 // Use `Object.entries` and `forEach` to iterate through keys and values
 Object.entries(userInfo).forEach(([key, value]) => console.log(`Key: ${key} and Value ${value}`));
 
+// Object.keys
+// ['name','age','location']
+
+// Object.values
+// ['Eric',32,'North America']
+
+// Object.entries
+// [
+//   ['name','Eric'],
+//   ['age',32],
+//   ['location','North America']
+// ]
 
 // Array of objects
 var users = [
@@ -20,8 +32,10 @@ var users = [
   { name: "Sally", age: 23, location: "Europe" },
   { name: "Cassandra", age: 27, location: "North America" }];
 
+console.log('- - - - - -')
+
 // Loop through array of objects then each object
-users.forEach((user) => {
+users.forEach(user => {
   console.log(user);
 
   // Get the entries for each object in the array
