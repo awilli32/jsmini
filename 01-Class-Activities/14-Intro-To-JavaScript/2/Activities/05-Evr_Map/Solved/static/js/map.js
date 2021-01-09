@@ -59,8 +59,8 @@ console.log(theStagesOfJS);
 
 // Challenge Activity!
 var princesses = [
-  { name: "Rapunzel", age: 18 },
-  { name: "Mulan", age: 16 },
+  { name: "Rapunzel", age: 18},
+  { name: "Mulan", age: 16},
   { name: "Anna", age: 18 },
   { name: "Moana", age: 16 }
 ];
