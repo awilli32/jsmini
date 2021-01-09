@@ -35,10 +35,6 @@
 
 * [Scrimba ES6+](https://scrimba.com/g/gintrotoes6)
 
-* [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
-
-* [JavaScript Tutorial](https://watchandcode.com/p/practical-javascript)
-
 - - -
 
 ### Copyright
