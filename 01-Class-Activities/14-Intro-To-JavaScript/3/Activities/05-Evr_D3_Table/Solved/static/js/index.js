@@ -56,7 +56,7 @@ console.log(data);
 //   });
 // });
 
-// BONUS: Refactor to use Arrow Functions!
+// Refactor to use Arrow Functions!
 data.forEach((weatherReport) => {
   var row = tbody.append("tr");
   Object.entries(weatherReport).forEach(([key, value]) => {
