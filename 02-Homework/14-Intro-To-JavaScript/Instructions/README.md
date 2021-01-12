@@ -18,7 +18,7 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 2. Clone the new repository to your computer.
 
-3. Inside your local git repository, create a directory for the Javascript challenge. Use the folder names to correspond to the challenges: **UFO-level-1** and **UFO-level-2**.
+3. Inside your local git repository, create a directory for the Javascript challenge.
 
 4. Add your **html** files to this folder as well as your static folder containing your javascript. This will be the main script to run for analysis.
 
@@ -26,7 +26,7 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 6. Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
-### Level 1: Automatic Table and Date Search (Required)
+### Automatic Table and Date Search
 
 * Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided (we recommend building your own custom page!).
 
@@ -34,11 +34,7 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
   * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
 
-* Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
-
-### Level 2: Multiple Search Categories (Required)
-
-* Complete all of Level 1 criteria.
+* Use a date form in your HTML document and write JavaScript code that will listen for `onchange` events and search through the `date/time` column to find rows that match user input.
 
 * Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
 
