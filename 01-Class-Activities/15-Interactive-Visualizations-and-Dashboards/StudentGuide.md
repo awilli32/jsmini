@@ -21,8 +21,8 @@
 * [Plotly.js Getting Started Guide](https://plot.ly/javascript/getting-started/)
 * [Plotly.js Documentation](https://plotly.com/javascript/)
 * [Plotly Cheat Sheet](https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf?_ga=2.105481091.1645473138.1610325972-1109632592.1610325972)
-* Reference: 
-    * [Plotly Cheat Sheet(http://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf)
+* Plotly Reference: 
+    * [Plotly Cheat Sheet](http://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf)
 	* [Figure Reference](https://plotly.com/javascript/reference/index/)
 	* [Function Reference](https://plotly.com/javascript/plotlyjs-function-reference/)
 	* [Event Reference](https://plotly.com/javascript/plotlyjs-events/)
