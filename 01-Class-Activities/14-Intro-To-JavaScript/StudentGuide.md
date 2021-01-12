@@ -25,6 +25,18 @@
         * Day 2: JS Functions to JS Date Set Methods
         * Day 3: JS Math to JS Type Conversion
         
+### Essential JavaScript Resources for week 14 and beyond
+* [Arrays](https://www.w3schools.com/js/js_arrays.asp)
+* [Objects](https://www.w3schools.com/js/js_objects.asp)
+* Loops
+    * [For loops](https://www.w3schools.com/js/js_loop_for.asp)
+    * [For each loops](https://www.w3schools.com/jsref/jsref_foreach.asp)
+* Functions
+    * [Functions overview](https://www.w3schools.com/js/js_functions.asp)
+	* [Function definitions](https://www.w3schools.com/js/js_function_definition.asp)
+* [Array Map](https://www.w3schools.com/jsref/jsref_map.asp)
+* [Array Filtering](https://www.w3schools.com/jsref/jsref_filter.asp)
+    
 - - - 
 
 ### Other Helpful Links
