@@ -5,7 +5,7 @@
 var tbody = d3.select("tbody");
 
 // Console.log the weather data from data.js
-console.log(data);
+// console.log(data);
 
 // // Step 1: Loop Through `data` and console.log each weather report object
 // data.forEach(function(weatherReport) {
@@ -21,7 +21,7 @@ console.log(data);
 
 // // Step 3:  Use `Object.entries` to console.log each weather report value
 // data.forEach(function(weatherReport) {
-//   console.log(weatherReport);
+//   // console.log(weatherReport);
 //   var row = tbody.append("tr");
 
 //   Object.entries(weatherReport).forEach(function([key, value]) {
@@ -42,10 +42,10 @@ console.log(data);
 //   });
 // });
 
-// // Step 5: Use d3 to update each cell's text with
-// // weather report values (weekday, date, high, low)
+// Step 5: Use d3 to update each cell's text with
+// weather report values (weekday, date, high, low)
 // data.forEach(function(weatherReport) {
-//   console.log(weatherReport);
+//   //console.log(weatherReport);
 //   var row = tbody.append("tr");
 //   Object.entries(weatherReport).forEach(function([key, value]) {
 //     console.log(key, value);
@@ -56,10 +56,21 @@ console.log(data);
 //   });
 // });
 
-// Refactor to use Arrow Functions!
+/*
+[
+  [weekday, "SUN"],
+  [date, "July 1"],
+  [high, 76],
+  [low, 63]
+]
+*/
+
+//Refactor to use Arrow Functions!
 data.forEach((weatherReport) => {
+  console.log(weatherReport);
   var row = tbody.append("tr");
   Object.entries(weatherReport).forEach(([key, value]) => {
+    console.log(value)
     var cell = row.append("td");
     cell.text(value);
   });

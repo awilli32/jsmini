@@ -3,7 +3,7 @@ var text1 = d3.select(".text1").text();
 console.log("text1 says: ", text1);
 
 var text2 = d3.select("#text2").text();
-console.log("text2 says: ", text2);
+console.log(`hello world! Brooke says: ${text2}`);
 
 // Modify the text of an HTML element
 d3.select(".text1").text("Hey, I changed this!");
@@ -25,7 +25,13 @@ console.log("myLinkAnchorAttribute: " + myLinkAnchorAttribute);
 myLinkAnchor.attr("href", "https://python.org");
 
 // Use chaining to join methods
-d3.select(".my-link>a").attr("href", "https://nytimes.com").text("Now this is a link to the NYT!!");
+
+
+a_elem = d3.select(".my-link>a");
+a_elem.attr("href", "https://nytimes.com");
+a_elem.text("Now this is a link to the NYT!!");
+
+//d3.select(".my-link>a").attr("href", "https://nytimes.com").text("Now this is a link to the NYT!!");
 
 // Select all list items, then change their font color
 d3.selectAll("li").style("color", "blue");
@@ -36,3 +42,4 @@ li1.text("A new item has been added!");
 
 // Use chaining to create a new element and set its text
 var li2 = d3.select("ul").append("li").text("Another new item!");
+console.log(li2);
