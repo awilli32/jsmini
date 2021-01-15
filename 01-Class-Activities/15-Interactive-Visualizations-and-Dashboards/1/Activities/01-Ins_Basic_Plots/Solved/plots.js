@@ -1,21 +1,21 @@
 // Part 1
-var trace1 = {
-  x: ["beer", "wine", "martini", "margarita",
-    "ice tea", "rum & coke", "mai tai", "gin & tonic"],
-  y: [22.7, 17.1, 9.9, 8.7, 7.2, 6.1, 6.0, 4.6],
-  type: "bar"
-};
+// var trace1 = {
+//   x: ["beer", "wine", "martini", "margarita",
+//     "ice tea", "rum & coke", "mai tai", "gin & tonic"],
+//   y: [22.7, 17.1, 9.9, 8.7, 7.2, 6.1, 6.0, 4.6],
+//   type: "bar"
+// };
 
-var data = [trace1];
+// var data = [trace1];
 
-var layout = {
-  title: "'Bar' Chart"
-};
+// var layout = {
+//   title: "'Bar' Chart"
+// };
 
-Plotly.newPlot("plot", data, layout);
+// Plotly.newPlot("plot", data, layout);
 
 
-// // Part 2 - Adding attributes
+// // // Part 2 - Adding attributes
 // var trace1 = {
 //   x: ["beer", "wine", "martini", "margarita",
 //       "ice tea", "rum & coke", "mai tai", "gin & tonic"],
@@ -27,28 +27,37 @@ Plotly.newPlot("plot", data, layout);
 
 // var layout = {
 //   title: "'Bar' Chart",
-//   xaxis: { title: "Drinks"},
-//   yaxis: { title: "% of Drinks Ordered"}
+//   xaxis: {title: "Drinks"},
+//   yaxis: {title: "% of Drinks Ordered"}
 // };
 
 // Plotly.newPlot("plot", data, layout);
 
 
-// // Part 3 - Line Chart
-// var trace1 = {
-//   x: ["beer", "wine", "martini", "margarita",
-//       "ice tea", "rum & coke", "mai tai", "gin & tonic"],
-//   y: [22.7, 17.1, 9.9, 8.7, 7.2, 6.1, 6.0, 4.6],
-//   type: "line"
-// };
+// Part 3 - Line Chart
+var trace1 = {
+  x: ["beer", "wine", "martini", "margarita",
+      "ice tea", "rum & coke", "mai tai", "gin & tonic"],
+  y: [22.7, 17.1, 9.9, 8.7, 7.2, 6.1, 6.0, 4.6],
+  type: "line"
+};
 
-// var data = [trace1];
+var trace2 = {
+  x: ["beer", "wine", "martini", "margarita",
+      "ice tea", "rum & coke", "mai tai", "gin & tonic"],
+  y: [12.7, 27.1, 19.9, 2.7, 17.2, 4.1, 9.0, 7.6],
+  type: "line"
+};
 
-// var layout = {
-//   title: "'Bar' Chart",
-// };
+var data = [trace1, trace2];
 
-// Plotly.newPlot("plot", data, layout);
+var layout = {
+  title: "Happy Hour!",
+  xaxis: {'title': "Drinks"},
+  yaxis: {'title': "% of Drinks Ordered"},
+};
+
+Plotly.newPlot("plot", data, layout);
 
 // // Part 4 - Broken Pie Chart
 // var trace1 = {
@@ -61,7 +70,7 @@ Plotly.newPlot("plot", data, layout);
 // var data = [trace1];
 
 // var layout = {
-//   title: "'Bar' Chart",
+//   title: "Happy Hour!",
 // };
 
 // Plotly.newPlot("plot", data, layout);
@@ -75,11 +84,10 @@ Plotly.newPlot("plot", data, layout);
 //   type: 'pie'
 // };
 
-// var data = [trace1];
+// var data = trace1;
 
 // var layout = {
-//   title: "'Bar' Chart",
+//   title: "Happy Hour!",
 // };
 
 // Plotly.newPlot("plot", data, layout);
-
