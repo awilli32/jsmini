@@ -1,13 +1,21 @@
 d3.selectAll("button").on("click", function() {
   // What will be logged out? What is `this` in this case?
   console.log(this);
-  // Answer: It will console log the `button` element.
 });
 
-d3.selectAll("li").on("click", function() {
+d3.selectAll("li").on("mouseover", function() {
   // you can select the element just like any other selection
   var listItem = d3.select(this);
   listItem.style("color", "blue");
+
+  var listItemText = listItem.text();
+  console.log(listItemText);
+});
+
+d3.selectAll("li").on("mouseout", function() {
+  // you can select the element just like any other selection
+  var listItem = d3.select(this);
+  listItem.style("color", "black");
 
   var listItemText = listItem.text();
   console.log(listItemText);
