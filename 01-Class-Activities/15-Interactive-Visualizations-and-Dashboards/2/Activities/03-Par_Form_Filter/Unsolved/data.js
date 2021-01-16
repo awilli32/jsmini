@@ -54,7 +54,7 @@ var data = [
   }, {
     fullName: "Tracey Santiago",
     age: 51,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Robt Eaton",
     age: 31,
@@ -194,7 +194,7 @@ var data = [
   }, {
     fullName: "Emerita Benson",
     age: 66,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Celine Floyd",
     age: 66,
@@ -230,7 +230,7 @@ var data = [
   }, {
     fullName: "Ambrose Allen",
     age: 48,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Mitsuko Nelson",
     age: 55,
@@ -258,11 +258,11 @@ var data = [
   }, {
     fullName: "Oliva Cochran",
     age: 61,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Georgiann Mathews",
     age: 64,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Stanley Donaldson",
     age: 57,
@@ -278,7 +278,7 @@ var data = [
   }, {
     fullName: "Colton Collins",
     age: 63,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Jim Cochran",
     age: 65,
@@ -286,7 +286,7 @@ var data = [
   }, {
     fullName: "Arthur Sears",
     age: 29,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Mike Sharpe",
     age: 19,
@@ -302,7 +302,7 @@ var data = [
   }, {
     fullName: "Kiesha Schmidt",
     age: 63,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Deangelo Marsh",
     age: 66,
@@ -314,7 +314,7 @@ var data = [
   }, {
     fullName: "Adelle Walker",
     age: 54,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Jeffry Gillespie",
     age: 54,
@@ -342,7 +342,7 @@ var data = [
   }, {
     fullName: "Sherlyn Burris",
     age: 34,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Harlan Hurst",
     age: 17,
@@ -378,7 +378,7 @@ var data = [
   }, {
     fullName: "Eleonora Bush",
     age: 45,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Rod Mosley",
     age: 20,
@@ -386,7 +386,7 @@ var data = [
   }, {
     fullName: "Florentina Stevens",
     age: 60,
-    bloodType: "A–"
+    bloodType: "A−"
   }, {
     fullName: "Dusty Sellers",
     age: 59,

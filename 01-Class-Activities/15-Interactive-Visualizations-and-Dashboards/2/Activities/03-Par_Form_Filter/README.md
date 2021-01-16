@@ -12,9 +12,11 @@ In this activity, you will use a form to filter data by blood type.
 
   * Uses the form input to filter the data by bloodType.
 
+  * Generate a table that returns the Full Name, Age, and Blood Type for each individual who matches the blood type that the user entered.
+
 ## Bonus
 
-* Use the [math.js](http://mathjs.org/docs/reference/functions/mean.html) library to calculate the mean, median, mode, variance, and standard deviation for the age field in the filtered data.
+* Use the [math.js](http://mathjs.org/docs/reference/functions/mean.html) library to calculate the mean and median for the age field in the filtered data.
 
 * Populate the unordered list `ul` with `li` elements for each summary statistic.
 
