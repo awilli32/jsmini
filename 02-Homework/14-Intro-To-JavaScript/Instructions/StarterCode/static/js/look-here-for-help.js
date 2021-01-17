@@ -2,7 +2,7 @@
 var tableData = data;
 
 // Identify the table and tbody
-var tbody = d3.select('#ufo-tbody');
+//var tbody = d3.select('#ufo-tbody');
 
 // Create function to generate and populate the table
 function buildTable(tableData){
@@ -12,18 +12,7 @@ function buildTable(tableData){
         var row = tbody.append('tr');
 
             row.append('td').text(record['datetime']);
-            row.append('td').text(record['city']);
-            row.append('td').text(record['state']);
-            row.append('td').text(record['country'])    
-            row.append('td').text(record['shape']);
-            row.append('td').text(record['durationMinutes']);
-            row.append('td').text(record['comments']);
-
-        /* // Use Object.values as an alternate method
-            Object.values(record).forEach(col => {
-                row.append('td').text(col);        
-            });
-        */
+            // what else?
     })
 }
 
@@ -33,18 +22,11 @@ function filterTable(){
 
     // capture value for all search fields */
     var datetime = d3.select('#datetime').property('value');
-    var city = d3.select('#city').property('value');
-    var state = d3.select('#state').property('value');
-    var country = d3.select('#country').property('value');
-    var shape = d3.select('#shape').property('value');
+    // what else?
 
     // Build an object of fields to run through 
     var filterFields = {
-        'datetime': datetime,
-        'city': city,
-        'state': state, 
-        'country': country,
-        'shape': shape
+        // think about how we should populate this and why
     }
 
     // Remove empty keys from the list of filters to search
@@ -59,7 +41,8 @@ function filterTable(){
     // Loop through each of the filter keys and return records from filteredData that match 
     Object.entries(filterFields).forEach(([key, value]) => {
         // Continue to refine the filteredData array 
-        filteredData = filteredData.filter(row => row[key] == value);
+        // filteredData = filteredData.filter(row => row[key] == value);
+        // if the line above works, think about why!!
       });    
 
     // Clear out the tbody
@@ -71,14 +54,11 @@ function filterTable(){
 
 // Identify web elements on the page
 btn = d3.select('#filter-btn');
-datetimefield = d3.select('#datetime')
-
-// Add event listeners to the web elements
 btn.on('click', filterTable);
 datetimefield.on('change', filterTable);
 
 // Attach an event listener to the fields attached to the .filter class 
-d3.selectAll('.filter').on('change', filterTable);
+// your-code here
 
-// Call the function to initially load the table
+// Call the function to initially load the table and pass the tableData to that function
 buildTable(tableData);
