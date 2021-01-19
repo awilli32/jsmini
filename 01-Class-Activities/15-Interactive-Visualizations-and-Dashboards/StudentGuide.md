@@ -16,7 +16,7 @@
 
 - - -
 
-## Helpful References
+## Helpful Resources
 
 * [Plotly.js Getting Started Guide](https://plot.ly/javascript/getting-started/)
 * [Plotly.js Documentation](https://plotly.com/javascript/)
@@ -27,9 +27,13 @@
 	* [Function Reference](https://plotly.com/javascript/plotlyjs-function-reference/)
 	* [Event Reference](https://plotly.com/javascript/plotlyjs-events/)
     * [Configuration Options](https://plotly.com/javascript/configuration-options/)
+* [List of Web Events](https://developer.mozilla.org/en-US/docs/Web/Events)
+* [Array.sort() Method](https://www.w3schools.com/js/js_array_sort.asp)
+* [Array.slice() Method](https://www.w3schools.com/jsref/jsref_slice_array.asp)
+* [Switch Statement](https://www.w3schools.com/jsref/jsref_slice_array.asp)
 
 - - -
 
 ### Copyright
 
-Data Boot Camp © 2019. All Rights Reserved.
+Data Boot Camp © 2021. All Rights Reserved.
