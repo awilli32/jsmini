@@ -1,5 +1,5 @@
 // Array of names
-var names = ["Jane", "John", "Jimbo", "Jedediah"];
+var names = ["Jannette", "Angela", "Gene", "Jared"];
 
 // Slice the first two names
 var left = names.slice(0, 2);

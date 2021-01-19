@@ -15,18 +15,32 @@ function randomNumbersBetween0and9(n) {
 var trace1 = {
   x: [1, 2, 3, 4, 5],
   y: randomNumbersBetween0and9(5),
-  type: "scatter"
+  type: "line"
 };
 
 // Create our second trace
 var trace2 = {
   x: [1, 2, 3, 4, 5],
   y: randomNumbersBetween0and9(5),
-  type: "scatter"
+  type: "line"
+};
+
+// Create our second trace
+var trace3 = {
+  x: [1, 2, 3, 4, 5],
+  y: randomNumbersBetween0and9(5),
+  type: "line"
+};
+
+// Create our second trace
+var trace4 = {
+  x: [1, 2, 3, 4, 5],
+  y: randomNumbersBetween0and9(5),
+  type: "bar"
 };
 
 // The data array consists of both traces
-var data = [trace1, trace2];
+var data = [trace1, trace2, trace3, trace4];
 
 // Note that we omitted the layout object this time
 // This will use default parameters for the layout
