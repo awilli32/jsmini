@@ -1,69 +1,56 @@
 var apiKey = "CBivvBn54csU-rbfu-KG";
-var startDate = '2017-10-01'
-var endDate = '2018-04-01'
-var stockSymbol = 'AMZN'
+var tickerSymbol = 'FB';
+var startDate = '2016-10-01';
+var endDate = '2017-10-01';
 
 /* global Plotly */
 var url =
-  `https://www.quandl.com/api/v3/datasets/WIKI/${stockSymbol}.json?start_date=${startDate}&end_date=${endDate}&api_key=${apiKey}`;
+  `https://www.quandl.com/api/v3/datasets/WIKI/${tickerSymbol}.json?start_date=${startDate}&end_date=${endDate}&api_key=${apiKey}`;
+
+// console.log(url);
 
 /**
  * Helper function to select stock data
  * Returns an array of values
- * @param {array} rows
- * @param {integer} index
  * index 0 - Date
  * index 1 - Open
  * index 2 - High
  * index 3 - Low
  * index 4 - Close
  * index 5 - Volume
+ * index 11 - Adj. Close
  */
-function unpack(rows, index) {
-  return rows.map(function(row) {
-    return row[index];
-  });
-}
 
-function buildPlot() {
-  d3.json(url).then(function(data) {
+/**
+ * Fetch data and build the timeseries plot
+ */
+d3.json(url).then(function(stocksData) {
+    data = stocksData['dataset']['data'];
 
-    // Grab values from the data json object to build the plots
-    var name = data.dataset.name;
-    var stock = data.dataset.dataset_code;
-    var startDate = data.dataset.start_date;
-    var endDate = data.dataset.end_date;
-    var dates = unpack(data.dataset.data, 0);
-    var closingPrices = unpack(data.dataset.data, 4);
+    dates = data.map(d => d[0]);
+    adjClosingPrices = data.map(d => d[11]);
+    
+    // console.log(dates);
+    // console.log(adjClosingPrices);
 
     var trace1 = {
-      type: "scatter",
-      mode: "lines",
-      name: name,
       x: dates,
-      y: closingPrices,
-      line: {
-        color: "#17BECF"
-      }
+      y: adjClosingPrices,
+      type: 'line'
     };
-
-    var data = [trace1];
 
     var layout = {
-      title: `${stock} closing prices`,
+      title: `${tickerSymbol} closing prices`,
       xaxis: {
-        range: [startDate, endDate],
-        type: "date"
+        title: 'Date'
       },
       yaxis: {
-        autorange: true,
-        type: "linear"
+        title: 'Adjusted Closing Price'
       }
     };
-
-    Plotly.newPlot("plot", data, layout);
+    
+    var traceData = [trace1];
+    
+    Plotly.newPlot('plot', traceData);
 
   });
-}
-
-buildPlot();
