@@ -1,0 +1,5 @@
+# example for background apps
+worker: python ChatterBot.py
+
+# example for web apps
+web: gunicorn pet_pals.app:app
