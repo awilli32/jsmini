@@ -46,6 +46,7 @@ else:
       * For example, Twitter API keys, Weather API keys, Other API keys
       * Set up the Timezone (TZ) for your app
         * https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+      * Please also configure the `IS_HEROKU` environment variable. Set the value to `True`. You can use this to control whether your script will use the config file or Heroku environment variables.
 * **Deploy Heroku App**
   * 10. Connect to Git Repository (on the _Deploy_ tab in Heroku)
   * 11. Confirm deployment status (on the _Activity_ tab in Heroku)
