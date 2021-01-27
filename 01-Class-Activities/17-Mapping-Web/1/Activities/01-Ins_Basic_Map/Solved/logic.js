@@ -2,7 +2,7 @@
 // We set the longitude, latitude, and the starting zoom level
 // This gets inserted into the div with an id of 'map'
 var myMap = L.map("map", {
-  center: [38.9072, -77.0369],
+  center: [45.52, -122.67],
   zoom: 13
 });
 

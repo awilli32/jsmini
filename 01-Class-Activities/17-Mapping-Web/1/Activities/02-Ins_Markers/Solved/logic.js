@@ -1,7 +1,7 @@
 // Create our initial map object
 // Set the longitude, latitude, and the starting zoom level
 var myMap = L.map("map", {
-  center: [38.9072, -77.0369],
+  center: [45.52, -122.67],
   zoom: 13
 });
 
@@ -18,10 +18,10 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 // Create a new marker
 // Pass in some initial options, and then add it to the map using the addTo method
-var marker = L.marker([38.901920, -76.981247], {
+var marker = L.marker([45.52, -122.67], {
   draggable: true,
   title: "My First Marker"
 }).addTo(myMap);
 
 // Binding a pop-up to our marker
-marker.bindPopup("The Dartpad!");
+marker.bindPopup("Hello There!");
