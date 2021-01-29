@@ -13,10 +13,12 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: API_KEY
 }).addTo(myMap);
 
+/*
 // Define a markerSize function that will give each city a different radius based on its population
 function markerSize(population) {
   return population / 40;
 }
+*/
 
 // Each city object contains the city's name, location and population
 var cities = [
@@ -47,6 +49,43 @@ var cities = [
   }
 ];
 
+
+markerRadius = [];
+
+cities.forEach(city => {
+  
+  marker = L.circle(city['location'], {
+    fillOpacity: 0.75,
+    color: "white",
+    fillColor: "purple",
+    radius: city['population'] / 50
+  }).bindPopup("<h1>" + city['name'] + "</h1> <hr> <h3>Population: " + city['population'] + "</h3>").addTo(myMap);  
+
+  radius = marker.getRadius();
+  markerRadius.push(radius);
+})
+
+
+var legend = L.control({position: 'bottomright'});
+    legend.onAdd = function (map) {
+
+     var div = L.DomUtil.create('div', 'info legend');
+     population = cities.map(c => cities['population'])
+     labels = ['<strong>Population</strong>'];
+     
+//iterate through grades and create a scaled circle and label for each
+    for (var i = 0; i < population.length; i++) {
+      from = population[i];
+       to = population[i + 1];
+        labels.push(
+        '<i class="circlepadding" style="width: '+Math.max(0,(19-1.8*markerRadius[i]))+'px;"></i> <i style="background: #8080A0; width: '+markerRadius[i]*2+'px; height: '+markerRadius[i]*2+'px; border-radius: 50%; margin-top: '+Math.max(0,(9-markerRadius[i]))+'px;"></i> ' + markerRadius[i]);
+    }
+    div.innerHTML = labels.join('<br>');
+    return div;
+ };
+  legend.addTo(myMap);
+
+/*
 // Loop through the cities array and create one marker for each city object
 for (var i = 0; i < cities.length; i++) {
   L.circle(cities[i].location, {
@@ -55,6 +94,7 @@ for (var i = 0; i < cities.length; i++) {
     fillColor: "purple",
     // Setting our circle's radius equal to the output of our markerSize function
     // This will make our marker's size proportionate to its population
-    radius: markerSize(cities[i].population)
+    radius: (cities[i].population) 
   }).bindPopup("<h1>" + cities[i].name + "</h1> <hr> <h3>Population: " + cities[i].population + "</h3>").addTo(myMap);
 }
+*/

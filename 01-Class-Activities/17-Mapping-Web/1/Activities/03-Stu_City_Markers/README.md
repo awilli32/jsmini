@@ -6,15 +6,15 @@ In this activity, you will create a map and plot markers for five US cities.
 
 1. Find the latitude and longitude for the following US cities:
 
-   1. New York
+   1. Chicago
 
-   2. Los Angeles
+   2. Washington, DC
 
-   3. Houston
+   3. New York
 
-   4. Omaha
+   4. Los Angeles
 
-   5. Chicago
+   5. Atlanta
 
 2. Create a marker for each city with a pop-up that displays that city's name and population. For this activity, you may either look up the population for each city, or make one up.
 

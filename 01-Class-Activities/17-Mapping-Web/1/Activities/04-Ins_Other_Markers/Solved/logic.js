@@ -1,15 +1,20 @@
 // Create an initial map object
 // Set the longitude, latitude, and the starting zoom level
-var myMap = L.map("map").setView([45.52, -122.67], 13);
+// var myMap = L.map("map").setView([45.52, -122.67], 13);
+
+var myMap = L.map("map", {
+  center: [45.52, -122.67],
+  zoom: 13
+});
 
 // Add a tile layer (the background map image) to our map
 // Use the addTo method to add objects to our map
 L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-  attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
+  attribution: "Dartling University 2021",
   tileSize: 512,
   maxZoom: 18,
   zoomOffset: -1,
-  id: "mapbox/streets-v11",
+  id: "mapbox/light-v10",
   accessToken: API_KEY
 }).addTo(myMap);
 
@@ -17,25 +22,26 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 L.marker([45.52, -122.67]).addTo(myMap);
 
 // Create a circle and pass in some initial options
-L.circle([45.52, -122.69], {
+L.circle([45.52, -122.67], {
   color: "green",
   fillColor: "green",
-  fillOpacity: 0.75,
-  radius: 500
+  fillOpacity: 0.25,
+  radius: 1600
 }).addTo(myMap);
 
 // Create a Polygon and pass in some initial options
 L.polygon([
   [45.54, -122.68],
   [45.55, -122.68],
-  [45.55, -122.66]
+  [45.55, -122.66],
 ], {
   color: "yellow",
   fillColor: "yellow",
-  fillOpacity: 0.75
+  fillOpacity: 0.25
 }).addTo(myMap);
 
 // Coordinates for each point to be used in the polyline
+
 var line = [
   [45.51, -122.68],
   [45.50, -122.60],
@@ -54,6 +60,5 @@ L.rectangle([
   [45.54, -122.61]
 ], {
   color: "black",
-  weight: 3,
-  stroke: true
+  weight: 3
 }).addTo(myMap);
