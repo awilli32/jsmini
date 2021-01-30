@@ -18,7 +18,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 var link = "static/data/nyc.geojson";
 
 // Grabbing our GeoJSON data..
-d3.json(link, function(data) {
+d3.json(link).then(data => {
   // Creating a GeoJSON layer with the retrieved data
   L.geoJson(data).addTo(myMap);
 });

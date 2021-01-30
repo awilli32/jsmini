@@ -24,7 +24,7 @@ var limit = "&$limit=10000";
 var url = baseURL + date + complaint + limit;
 
 // Grab the data with d3
-d3.json(url, function(response) {
+d3.json(url).then(response => {
 
   // Create a new marker cluster group
   var markers = L.markerClusterGroup();

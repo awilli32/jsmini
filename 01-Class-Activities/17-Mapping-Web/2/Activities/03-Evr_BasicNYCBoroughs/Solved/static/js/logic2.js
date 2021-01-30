@@ -26,7 +26,7 @@ var mapStyle = {
 };
 
 // Grabbing our GeoJSON data..
-d3.json(link, function(data) {
+d3.json(link).then(data => {
   // Creating a geoJSON layer with the retrieved data
   L.geoJson(data, {
     // Passing in our style object

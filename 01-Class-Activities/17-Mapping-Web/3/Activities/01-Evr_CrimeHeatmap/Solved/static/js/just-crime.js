@@ -15,7 +15,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 var newtry = "https://data.sfgov.org/resource/cuks-n6tp.json?$limit=1000";
 
-d3.json(newtry, function(response) {
+d3.json(newtry).then(response => {
 
   console.log(response);
 

@@ -20,7 +20,7 @@ var geoData = "static/data/Median_Household_Income_2016.geojson";
 var geojson;
 
 // Grab data with d3
-d3.json(geoData, function(data) {
+d3.json(geoData).then(data => {
 
   // Create a new choropleth layer
   geojson = L.choropleth(data, {
