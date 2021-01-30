@@ -1,5 +1,5 @@
 // An array of cities and their locations
-var cities = [
+var cities1 = [
   {
     name: "Paris",
     location: [48.8566, 2.3522]
@@ -8,6 +8,9 @@ var cities = [
     name: "Lyon",
     location: [45.7640, 4.8357]
   },
+];
+
+var cities2 = [
   {
     name: "Cannes",
     location: [43.5528, 7.0174]
@@ -16,21 +19,28 @@ var cities = [
     name: "Nantes",
     location: [47.2184, -1.5536]
   }
-];
+]
 
 // An array which will be used to store created cityMarkers
 var cityMarkers = [];
+var cityMarkers2 = [];
 
-for (var i = 0; i < cities.length; i++) {
-  // loop through the cities array, create a new marker, push it to the cityMarkers array
+cities1.forEach(city => {
   cityMarkers.push(
-    L.marker(cities[i].location).bindPopup("<h1>" + cities[i].name + "</h1>")
+    L.marker(city['location']).bindPopup("<h1>" + city['name'] + "</h1>")
   );
-}
+});
+
+cities2.forEach(city => {
+  cityMarkers2.push(
+    L.marker(city['location']).bindPopup("<h1>" + city['name'] + "</h1>")
+  );
+});
 
 // Add all the cityMarkers to a new layer group.
 // Now we can handle them as one group instead of referencing each individually
-var cityLayer = L.layerGroup(cityMarkers);
+var cityLayer1 = L.layerGroup(cityMarkers);
+var cityLayer2 = L.layerGroup(cityMarkers2);
 
 // Define variables for our tile layers
 var light = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
@@ -49,20 +59,21 @@ var dark = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{
 
 // Only one base layer can be shown at a time
 var baseMaps = {
-  Light: light,
-  Dark: dark
+  'Light base map': light,
+  'Dark base map': dark
 };
 
 // Overlays that may be toggled on or off
 var overlayMaps = {
-  Cities: cityLayer
+  'Cities 1': cityLayer1,
+  'Cities 2': cityLayer2
 };
 
 // Create map object and set default layers
 var myMap = L.map("map", {
   center: [46.2276, 2.2137],
   zoom: 6,
-  layers: [light, cityLayer]
+  layers: [light, cityLayer1]
 });
 
 // Pass our map layers into our layer control
