@@ -100,6 +100,39 @@ function buildPlot(stock1, stock2) {
 
       Plotly.newPlot("plot", data, layout);
 
+
+      trace_stock_1 = {
+        type: 'line',
+        mode: 'lines',
+        name: stock1,
+        x: dates,
+        y: closingPrices1
+      }
+
+      trace_stock_2 = {
+        type: 'line',
+        mode: 'lines',
+        name: stock2,
+        yaxis: 'y2',
+        x: dates,
+        y: closingPrices2
+      }
+
+      var duallayout = {
+        title: `${stock1} ${stock2} Comparison Plot`,
+        yaxis: {title: stock1},
+        yaxis2: {
+          title: stock2,
+          overlaying: 'y',
+          side: 'right'
+        }
+      };
+      
+
+      comparisonData = [trace_stock_1, trace_stock_2];
+
+      Plotly.newPlot('comparison', comparisonData, duallayout);
+
     });
 
   });

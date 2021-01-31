@@ -4,6 +4,8 @@ In this activity, we create a correlation plot between two stocks using a 10 day
 
 ## Instructions
 
+* Produce a chart that compares the performance for two stocks.
+
 * Use the starter code provided and complete the function `rollingCorrelation`.
 
 * The two arrays passed to this function will arrays of closing prices for both stocks.
