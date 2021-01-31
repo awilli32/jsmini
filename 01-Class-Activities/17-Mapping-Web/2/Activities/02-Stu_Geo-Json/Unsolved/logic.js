@@ -3,7 +3,7 @@ var queryUrl = "http://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&s
   "2014-01-02&maxlongitude=-69.52148437&minlongitude=-123.83789062&maxlatitude=48.74894534&minlatitude=25.16517337";
 
 // Perform a GET request to the query URL
-d3.json(queryUrl, function(data) {
+d3.json(queryUrl).then(function(data) {
   console.log(data.features);
   // Using the features array sent back in the API data, create a GeoJSON layer and add it to the map
 

@@ -23,7 +23,6 @@ var cityMarkers = [];
 
 cities.forEach(city => {
   cityMarkers.push(
-    // L.marker(city['location']).bindPopup("<h1>" + city['name'] + "</h1><br/>" + city['location'])
     L.marker(city['location']).bindPopup(`<h1>${city['name']}</h1><br/>${city['location']}`)
   );
 });
