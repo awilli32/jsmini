@@ -22,7 +22,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ## Your Task
 
-### Level 1: Basic Visualization
+### Level 1: Basic Visualization (REQUIRED)
 
 ![2-BasicMap](Images/2-BasicMap.png)
 
@@ -52,7 +52,7 @@ Your first task is to visualize an earthquake data set.
 
 - - -
 
-### Level 2: More Data (Optional)
+### Level 2: More Data (REQUIRED)
 
 ![5-Advanced](Images/5-Advanced.png)
 
@@ -78,10 +78,10 @@ Your final product will be assessed on the following metrics:
 
 * Professionalism
 
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
+* Ensure your repository has regular commits and a thorough README.md file
 
 **Good luck!**
 
 ### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
+Data Boot Camp © 2021. All Rights Reserved.
